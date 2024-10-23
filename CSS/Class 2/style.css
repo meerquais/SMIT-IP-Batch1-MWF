@@ -1,0 +1,58 @@
+/* *{
+    color: green;
+} */
+
+/* h1{
+    color:red;
+}
+p{
+    color:blue;
+} */
+
+/* .color{
+    color:gray
+} */
+
+/* .parent > h1{
+    color: aqua;
+}
+
+.parent h1{
+    color:navajowhite
+} */
+
+/* .parent{
+    /* color: blue; */
+    /* color: #333366;
+    background-color: rgba(255, 0, 0,0.2);
+   
+} */ 
+
+
+/* .parent h1{
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 100;
+}
+.parent p{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    
+}
+.parent > p > span {
+    font-style: italic;
+    color: blue;
+} */
+.anchor{
+    text-decoration:underline ;
+}
+.para{
+    /* text-decoration: overline;
+    line-height: 35px;
+    letter-spacing: 20px;
+    word-spacing: 35px; */
+
+    text-align: center;
+    text-shadow: 20px 20px 3px blue;
+}

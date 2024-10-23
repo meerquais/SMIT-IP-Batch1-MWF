@@ -1,0 +1,45 @@
+/* *{
+    color:blue
+}
+
+h1{
+    color: brown;
+}
+
+p{
+    color: blueviolet;
+}
+
+.color{
+    color: chartreuse;
+}
+
+.parent  h1 {
+    color: red;
+}
+
+#child{
+    color: salmon;
+} */
+
+
+/* .parent h1 , .parent li , #child{
+    color: red;
+}
+
+
+.parent > h1{
+    color: blue;
+}
+.parent li {
+    color: blue;
+}
+
+#child{
+    color: blue;
+} */
+
+
+/* .parent{
+    color: red;
+} */
