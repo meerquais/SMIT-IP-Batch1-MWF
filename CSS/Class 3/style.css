@@ -1,0 +1,48 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    /* text-decoration: underline;
+    line-height: 50px;
+    letter-spacing: 20px;
+    word-spacing: 20px; */
+    text-align: center;
+    /* text-shadow: 12px 24px 20px red; */
+}
+
+
+p::first-letter{
+    color: red;
+    font-size: 44px;
+}
+
+p::first-line{
+    color: green;
+    font-size: 14px;
+}
+a:link{
+    color: deeppink;
+    text-decoration: none;
+}
+a:visited {
+    color: red;}
+
+
+a:hover{
+    color: aqua;
+    font-family: monospace;
+}
+
+/* a:active{
+    color: green;
+} */
+
+/* input:focus{
+    color: red;
+    font-size: 24px;
+} */
