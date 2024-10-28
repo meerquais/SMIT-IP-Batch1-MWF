@@ -1,0 +1,74 @@
+/* p::first-letter{
+    color: red;
+    font-size: 20px;
+    letter-spacing: 20px;
+} */
+
+
+/* p::first-line{
+    color: red;
+} */
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:active{
+    color: aqua;
+}
+
+
+.btn{
+    color: white;
+    background-color: rgb(52, 129, 210);
+}
+
+.btn:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+.search:focus{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+.container{
+    width: 200px;
+    /* min-width: 300px; */
+    /* max-width: 600px; */
+    /* height: 200px; */
+    /* min-height: 200px; */
+    max-height: 200px;
+    overflow: auto;
+    background-color: red;
+}
+
+.container2{
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+    border: 1px solid red;
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: red; */
+    /* padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left:10px ; */
+    /* padding: 30px 20px 40px 30px; */
+    /* margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px ;
+    margin-left:40px ; */
+    margin: 30px auto;
+    
+}
