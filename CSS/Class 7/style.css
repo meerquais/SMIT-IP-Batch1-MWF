@@ -1,0 +1,78 @@
+table{
+    width: 700px;
+    empty-cells: hide;
+    /* border-collapse: separate; */
+    border-spacing: 5px 10px ;
+}
+td,td{
+    padding: 20px;
+    font-size: 20px;
+}
+th{
+    text-transform: uppercase;
+    border-bottom: 2px solid #111111;
+}
+td{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.tableData{
+    width: 800px;
+    margin: 50px auto;
+}
+tr:hover{
+    background-color: green;
+}
+td:hover, th:hover{
+        background-color: gray;
+}
+
+
+
+.inputStyle{
+    width: 500px;
+    margin: 50px auto;
+}
+.inputStyle input{
+    margin: 20px 0px;
+}
+#name , #email , #password{
+    font-size: 20px;
+    background-color: rgb(111, 202, 241);
+    border: none;
+    border-radius: 20px;
+    padding: 0px 7px;
+}
+
+#name:focus , #email:focus , #password:focus{
+        outline: none;
+}
+
+.inputStyle button{
+    border: none;
+    background-color: rgb(99, 175, 226);
+    border-radius: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 0px 77px;
+}
+.inputStyle button:hover{
+    background-color: rgb(20, 147, 232);
+}
+fieldset {
+  width: 350px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+
+legend{
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
