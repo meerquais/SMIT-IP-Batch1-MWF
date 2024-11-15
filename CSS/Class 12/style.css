@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.topheader{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(255, 255, 255,0.9);
+    /* height: 200px; */
+}
+
+.lists ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.lists ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.lists ul li a:hover{
+    color: rgb(77, 76, 76);
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.hero1{
+    margin: 50px 0px;
+    background-image: url("./assets/hero1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 600px;
+    width: 100%;
+    /* margin: 0px auto; */
+}
+
+.herotext{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herotext h1{
+    margin: 270px 0px 0px 0px;
+    font-size: 50px;
+}
+.herotext p{
+    font-size: 30px;
+}
+.herotext button{
+    padding: 10px 20px;
+    background-color: #0071e3;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.hero2{
+    background-image: url("./assets/pro.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    /* margin-top: 20px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.hero2 h1{
+    font-size: 60px;
+    margin-top: 40px;
+}
+.hero2 p{
+    font-size: 30px;
+    text-align: center;
+}
+.btn1{
+    border: none;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 30px;
+    padding: 16px 30px;
+    margin: 20px 0px 0px 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2{
+    border: 1px solid #0071e3;
+    background-color: transparent;
+    color: #0071e3;
+    padding: 16px 30px ;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+.hero3{
+    background-image: url("./assets/hero2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.hero3 h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+}
+.hero3 p{
+    font-size: 30px;
+    text-align: center;
+}
+.hero3btn1{
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 30px;
+    margin: 20px 0px 0px 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero3btn2{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 16px 30px ;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+.hero3btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+.mainContainer1{
+    width: 99%;
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+}
+.Card1{
+    width: 50%;
+    height: 500px;
+    background-image: url("./assets/ipad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.Card1Img , .Card1Para, .Card1Btn{
+    margin: 0px auto;
+}
+
+.Card1Img{
+    margin-top: 40px;
+}
+.Card1Para{
+    font-size: 20px;
+}
+.Card1Btn{
+    margin-top: 20px;
+}
+.Card1btn1{
+    border: none;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 30px;
+    padding: 16px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Card1btn2{
+    border: 1px solid #0071e3;
+    background-color: transparent;
+    color: #0071e3;
+    padding: 16px 30px ;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.Card1btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+.Card1Footer{
+    display: flex;
+    height: 300px;
+    align-items: end;
+    justify-content: center;
+    color: rgba(121, 60, 9,100);
+}
+.Card1Main{
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer{
+    background-color: rgba(0, 0, 0, 0.16);
+}
+.FooterMain{
+    width: 70%;
+    margin: 0px auto;
+}
+.FooterPara{
+    color: gray;
+    width: 70%;
+    margin: 0px auto;
+}
+.FooterPara p{
+    margin-bottom: 10px;
+}
+.FooterList{
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    gap: 40px;
+}
+
+.FooterList ul{
+    list-style: none;
+}
