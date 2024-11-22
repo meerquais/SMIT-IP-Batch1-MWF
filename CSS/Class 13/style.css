@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Courier New', Courier, monospace;
+}
+.icon-color{
+    color:red;
+}
+
+.headerParent{
+    background-color: #eee;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.headerParent ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.headerParent ul li img{
+    width: 20px;
+}
+.headerParent button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+}
+.navBar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navBar img{
+    width: 200px;
+}
+.hero1{
+    display: flex;
+    width: 100%;
+    background-image: url("./assets/hero1bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* height: 560px; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.hero1Child1{
+    width: 40%;
+}
+.hero1Child1 h1{
+    font-size: 30px;
+}
+.hero1Child1 h1 span{
+    color: #8dc63f;
+}
+.hero1Child1 h3{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.hero1Child1 p{
+    font-size: 16px;
+}
+.hero1Child2{
+    width: 40%;
+}
+.hero1Child2 img{
+    width: 80%;
+}
+
+.hero2{
+    width: 80%;
+    background-color: #8dc63f;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.hero2Card1{
+    display: flex;
+}
+.hero2Card1 button{
+    padding: 7px;
+    background-color: #424242;
+    color: white;
+    border: none;
+}
+.hero2Card1 input{
+    padding: 7px;
+}
