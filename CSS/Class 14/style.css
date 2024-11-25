@@ -1,0 +1,53 @@
+/* .box {
+  width: 100vw;
+  height: 100vh;
+  background: #007991;
+  background: -webkit-linear-gradient(
+    to right,
+    #78ffd6,
+    #007991
+  ); 
+  background: linear-gradient(
+    to right,
+    #78ffd6,
+    #007991
+  ); 
+} */
+
+.box{
+    width: 1200px;
+    height: 600px;
+    background-color: red;
+    font-size: 300px;
+}
+
+
+
+@media (max-width:1024px){
+
+.box{
+    width: 900px;
+    background-color: blue;
+}
+
+}
+
+@media (max-width:768px){
+
+    .box{
+        display: none;
+        width: 400px;
+        background-color: green;
+    }
+
+
+}
+
+@media(max-width:480px){
+    .box{
+        display: block !important;
+        width: 300px;
+        background-color: gray;
+        font-size: 30px;
+    }
+}
