@@ -1,0 +1,12 @@
+.color{
+    background-color: aqua;
+}
+
+.car1{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.car1 div div div img{
+    height: 400px;
+}
