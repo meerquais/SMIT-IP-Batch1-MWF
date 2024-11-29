@@ -1,0 +1,17 @@
+.myClass{
+    border: 1px solid green;
+    color: black;
+}
+.myClass:hover{
+    background-color: green;
+    border: 1px solid green;
+}
+
+
+.MyCarousel{
+    width: 50%;
+    margin: 10px auto;
+}
+/* .ImageSize{
+    height: 300px;
+} */
