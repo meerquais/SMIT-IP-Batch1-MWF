@@ -1,0 +1,103 @@
+.blue a:hover{
+    color:#3a77ff !important;
+}
+.bg{
+    background-color: rgb(210, 206, 206);
+    padding: 6px;
+    border-radius: 50%;
+}
+.dropd{
+    padding: 10px;  
+    border: 1px solid black; 
+    width: 20%;
+    border-radius: 5px;
+}
+.dropd input{
+    border: none;
+}
+.dropd input:focus{
+    outline: none;
+}
+.inpt{
+    /* padding: 10px; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.inpt input{
+    width: 100%;
+    padding: 10px 8px;
+    margin-left: 14px;
+    border-radius: 5px; 
+}
+.inpt input:focus{
+    outline: none;
+}
+.inpt button{
+    background-color: #002f34;
+    padding:10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.inpt button i{
+    color: white;
+}
+
+
+.btns{
+    margin-left: 10px;
+}
+
+.btns1{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.btns1:hover{
+    text-decoration: none;
+}
+.btns2{
+    background-color: white;
+    border-top-color: aqua;
+    border-right-color: rgb(0, 128, 255);
+    border-left-color: yellow;
+    border-bottom-color: greenyellow;
+    border-radius: 40px;
+    padding: 7px 19px;
+}
+.bg-white{
+    background-color: white;
+    
+}
+
+.bg-underline{
+    border-bottom: 1px solid black;
+
+}
+.lists-class{
+    list-style: none;
+    margin-top: 5px;
+}
+.lists-class li:hover{
+    color: #00a49f;
+    cursor: pointer;
+}
+.image-set img, .image-set p{
+    width: 70%;
+}
+.color{
+    color: #3a77ff;
+}
+.bg-footer{
+    background-color: rgba(0, 47, 52, 3.00%);
+    height: 200px;
+}
+.bg-footer1{
+    background-color: #ebeeef;
+}
+.footer-list div ul{
+    list-style: none;
+}
