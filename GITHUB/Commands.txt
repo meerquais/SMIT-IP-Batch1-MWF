@@ -1,0 +1,17 @@
+git init ----------> Initialized Git repo/folder/project.
+
+git add "file name" ---------> Add/Track the said file.
+git add . -------> add all files in the repo/folder/project.
+
+git commit -m "Commit here" ----> Track all files and make them perm.
+
+git remote add origin "URL HERE" // https://www.github.com/username/reponame.git .
+
+git push -u origin master
+
+git status  -------> show you the status of your repo.
+
+git config --global user.name "Your Name here" -----> add your github to your local host.
+git config --global user.email "Your Github email here" -----> add your github to your local host.
+
+
