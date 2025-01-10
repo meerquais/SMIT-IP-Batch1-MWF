@@ -104,6 +104,11 @@ var isMatch = false;
  }
  }
 
+
+
+
+
+ 
  if(isMatch){
     alert("It's one of the cleanest cities");
  }else{
